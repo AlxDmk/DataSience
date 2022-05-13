@@ -2,8 +2,7 @@
 
 n = int(input('Введите число ->'))
 
-def summery(n, sum=0):
-    if n ==1: return n
+def summery(n, sum=0):   
     while n > 0:
         sum+=n
         n-=1
